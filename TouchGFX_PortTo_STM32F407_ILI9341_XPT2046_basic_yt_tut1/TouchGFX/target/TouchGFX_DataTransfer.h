@@ -1,6 +1,3 @@
-/* Functions called by the TouchGFX HAL to invoke the actual data transfer to ILI9341.
- * Pero, 2021
- */
 
 #ifndef TOUCHGFX_DATATRANSFER_H
 #define TOUCHGFX_DATATRANSFER_H

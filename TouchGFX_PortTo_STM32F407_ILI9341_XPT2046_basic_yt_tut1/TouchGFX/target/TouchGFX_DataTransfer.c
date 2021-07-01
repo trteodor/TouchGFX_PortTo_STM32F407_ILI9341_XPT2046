@@ -1,8 +1,5 @@
-/* Functions called by the TouchGFX HAL to invoke the actual data transfer to ILI9341.
- * Pero, 2021
- */
 
-#include "../../Drivers/ILI9341/core.h"
+#include "../ILI9341/core.h"
 #include "TouchGFX_DataTransfer.h"
 
 extern void DisplayDriver_TransferCompleteCallback();
