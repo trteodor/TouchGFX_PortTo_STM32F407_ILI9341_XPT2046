@@ -1,0 +1,21 @@
+
+{
+  "Application": {
+    "Name": "TouchGFX_PortTo_STM32F407_ILI9341_XPT2046",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "AvailableColorDepths": [ 16 ],
+    "AvailableLCDs":
+    {
+      "16": "LCD16bpp"
+    },
+    "AvailableResolutions" : [
+      {
+        "Width": 320,
+        "Height": 240
+      }
+    ],
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../TouchGFX_PortTo_STM32F407_ILI9341_XPT2046.ioc --platform=m4",
+    "Family" : "STM32F4"
+  },
+  "Version": "4.16.1"
+}
