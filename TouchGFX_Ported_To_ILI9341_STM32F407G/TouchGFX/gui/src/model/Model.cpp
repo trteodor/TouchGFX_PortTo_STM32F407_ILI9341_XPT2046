@@ -12,7 +12,7 @@ Model::Model() : modelListener(0)
 #include "main.h"
 #include "BMPXX80.h"
 
-float temperature;
+float temperature=23;
 int32_t  pressure;
 
 
@@ -56,7 +56,7 @@ void Model::setScanJunctionTemp(bool scanEnabled)
 int Model::getTempValue() {
 #ifndef SIMULATOR
 //	return TEMP_SENSOR_GetValue();
-	 BMP280_ReadTemperatureAndPressure(&temperature, &pressure);
+	// BMP280_ReadTemperatureAndPressure(&temperature, &pressure);
 	 return temperature;
 #else
 

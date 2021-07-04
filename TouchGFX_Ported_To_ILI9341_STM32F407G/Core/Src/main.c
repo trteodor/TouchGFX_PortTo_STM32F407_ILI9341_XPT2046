@@ -143,11 +143,11 @@ int main(void)
   uint32_t LedTim0;
   touchgfxSignalVSync();
 
-  BMP280_Init(&hi2c1, BMP280_TEMPERATURE_16BIT, BMP280_STANDARD, BMP280_FORCEDMODE);
+  //BMP280_Init(&hi2c1, BMP280_TEMPERATURE_16BIT, BMP280_STANDARD, BMP280_FORCEDMODE);
 
 
 
-  BMP280_ReadTemperatureAndPressure(&temperature, &pressure);
+  //BMP280_ReadTemperatureAndPressure(&temperature, &pressure);
   /* USER CODE END 2 */
 
   /* Infinite loop */
