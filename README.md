@@ -18,8 +18,6 @@ I modified a large part of this driver
 XPT2064 Driver  is taken directly from:
 https://kursstm32.pl/
 
-One of examples from the Lib:
-
 Connections:
 
 ![Connections](https://github.com/trteodor/LVGL_Ported_TO_ILI9341_STM32F407/blob/master/IMG/Untitled%20Diagram.jpg)
