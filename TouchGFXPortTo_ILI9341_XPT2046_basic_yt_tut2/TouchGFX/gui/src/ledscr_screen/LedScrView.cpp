@@ -54,4 +54,3 @@ Pressed.invalidate();
  */
 
 #endif /*SIMULATOR*/
-

@@ -1,7 +1,7 @@
 
 {
   "Application": {
-    "Name": "TouchGFXPortTo_ILI9341_XPT2046_basic",
+    "Name": "TouchGFXPortTo_ILI9341_XPT2046_basic_yt_tut2",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "AvailableColorDepths": [ 16 ],
     "AvailableLCDs":
@@ -14,7 +14,7 @@
         "Height": 240
       }
     ],
-    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../TouchGFXPortTo_ILI9341_XPT2046_basic.ioc --platform=m4",
+    "PostGenerateTargetCommand" : "touchgfx update_project --project-file=../TouchGFXPortTo_ILI9341_XPT2046_basic_yt_tut2.ioc --platform=m4",
     "Family" : "STM32F4"
   },
   "Version": "4.16.1"

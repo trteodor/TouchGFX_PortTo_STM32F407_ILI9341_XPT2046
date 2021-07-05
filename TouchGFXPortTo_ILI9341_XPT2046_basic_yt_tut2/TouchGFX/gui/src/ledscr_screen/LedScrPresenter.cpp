@@ -17,7 +17,8 @@ void LedScrPresenter::deactivate()
 
 }
 
-void LedScrPresenter::userButtonClicked()
+void LedScrPresenter::userButtonClicked()  //LedScrPreser.cpp
 {
 view.toggleButtonScr();
 }
+

@@ -458,7 +458,7 @@
         "IsResource": false
       }
     ],
-    "Name": "TouchGFXPortTo_ILI9341_XPT2046_basic",
+    "Name": "TouchGFXPortTo_ILI9341_XPT2046_basic_yt_tut2",
     "Resolution": {
       "Width": 320,
       "Height": 240

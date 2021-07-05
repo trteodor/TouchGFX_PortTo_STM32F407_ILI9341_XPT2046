@@ -6,6 +6,6 @@
 
 static unsigned short SIM_WIDTH = 320;
 static unsigned short SIM_HEIGHT = 240;
-#define SIM_TITLE "TouchGFXPortTo_ILI9341_XPT2046_basic"
+#define SIM_TITLE "TouchGFXPortTo_ILI9341_XPT2046_basic_yt_tut2"
 
 #endif // SIMCONSTANTS_HPP

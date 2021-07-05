@@ -14,7 +14,9 @@ public:
     {
         model = m;
     }
+
     virtual void  userButtonClicked(){}
+
 protected:
     Model* model;
 };

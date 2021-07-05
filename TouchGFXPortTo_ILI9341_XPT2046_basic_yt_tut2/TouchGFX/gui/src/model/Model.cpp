@@ -6,7 +6,6 @@ Model::Model() : modelListener(0)
 
 }
 
-
 #ifndef SIMULATOR
 
 #include "main.h"
