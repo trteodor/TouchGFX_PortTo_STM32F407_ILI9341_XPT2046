@@ -18,7 +18,7 @@ I modified a large part of this driver
 XPT2064 Driver  is taken directly from:
 https://kursstm32.pl/
 
-** Demo Video: https://youtu.be/AI_AbwAoxG4 **
+**_Demo Video: https://youtu.be/AI_AbwAoxG4 _**
 
 Connections:
 
