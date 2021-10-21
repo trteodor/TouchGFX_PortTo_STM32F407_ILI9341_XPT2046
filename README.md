@@ -6,6 +6,10 @@ In this project I ported TouchGFX to STM32F407G + ILI9341 + XPT2064
 * It works in my opinion very well and stable! :) 
 
 
+* Update!!!
+In this example: https://github.com/trteodor/TouchGFX_PortTo_STM32F407_ILI9341_XPT2046/tree/master/TouchGFXPortTo_ILI9341_XPT2046_basic_yt_tut2
+I Added Calibration procedure for Touch Controller! :) 
+
 External Links and sources:
 
 Based on:
