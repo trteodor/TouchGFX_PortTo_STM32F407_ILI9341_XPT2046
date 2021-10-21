@@ -304,7 +304,8 @@ void XPT2046_Init(SPI_HandleTypeDef *hspi, IRQn_Type TouchIRQn)
 //
 void CalibrationPoint(uint16_t calX, uint16_t calY)
 {
-//Draw Calibration Point
+//	ILI9341_fillRect(calX-5, calY-5, 10, 10, ILI9341_CYAN);
+	ILI9341_DrawRectWithoutDMA(calX-5, calY-5, 10, 10, ILI9341_CYAN);
 }
 
 //

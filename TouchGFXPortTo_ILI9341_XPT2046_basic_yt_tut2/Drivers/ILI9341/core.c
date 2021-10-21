@@ -233,6 +233,7 @@ void ILI9341_ClearDisplay(uint16_t Color)
 		ILI9341_SendData16(Color);
 	}
 }
+
 void ILI9341_Init()
 {
 
@@ -268,6 +269,21 @@ void ILI9341_Init()
     // Set selected Rotation
     ILI9341_SetRotation(ILI9341_ROTATION);
 }
+
+void ILI9341_DrawRectWithoutDMA(uint16_t x1, uint16_t y1, uint16_t w, uint16_t h, uint16_t color)
+{
+	// Set window for whole screen
+	ILI9341_SetAddrWindow(x1, y1, w, h);
+	// Set RAM writing
+	ILI9341_SendCommand(ILI9341_RAMWR);
+
+	for(uint32_t i = 0; i < (w * h); i++)
+	{
+		// Send Color bytes
+		ILI9341_SendData16(color);
+	}
+}
+
 void ILI9341_fillRect(uint16_t x1, uint16_t y1, uint16_t w, uint16_t h, uint16_t color) {
     uint16_t tbuf[w*h];
     ILI9341_SetAddrWindow(x1, y1,w,h);

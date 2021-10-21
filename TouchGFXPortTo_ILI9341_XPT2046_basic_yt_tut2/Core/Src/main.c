@@ -110,12 +110,12 @@ int main(void)
   MX_TIM2_Init();
   MX_TouchGFX_Init();
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start_IT(&htim2);
-
 
    ILI9341_Init();
    XPT2046_Init(&hspi1, EXTI9_5_IRQn);
+   DoCalibration();
 
+   HAL_TIM_Base_Start_IT(&htim2);
    uint32_t LedTim0;
    touchgfxSignalVSync();
   /* USER CODE END 2 */
